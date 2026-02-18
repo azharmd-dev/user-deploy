@@ -1,5 +1,5 @@
 deployment:
-  imageRepo: 522534289017.dkr.ecr.us-east-1.amazonaws.com/robomart/
+  imageRepo: 522534289017.dkr.ecr.us-east-1.amazonaws.com/robomart
   component: user
   imageVersion: IMAGE_VERSION
   project: robomart
