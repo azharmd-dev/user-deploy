@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: {{ .Values.deployment.imageRepo }}/{{ .Values.deployment.component }}:{{ .Values.deployment.imageVersion }}
+        image: "{{ .Values.deployment.imageRepo }}/{{ .Values.deployment.component }}:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
